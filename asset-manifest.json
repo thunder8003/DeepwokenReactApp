@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DeepwokenReactApp/static/css/main.bb6fef95.css",
+    "main.js": "/DeepwokenReactApp/static/js/main.6a563639.js",
+    "index.html": "/DeepwokenReactApp/index.html",
+    "main.bb6fef95.css.map": "/DeepwokenReactApp/static/css/main.bb6fef95.css.map",
+    "main.6a563639.js.map": "/DeepwokenReactApp/static/js/main.6a563639.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6fef95.css",
+    "static/js/main.6a563639.js"
+  ]
+}
