@@ -1,12 +1,9 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 
-import '../css/Home.css';
-
 function Home() {
     return (
         <div>
-            <img src="/images/Background.png" className="background" />
             <Container style = {{ display:"grid", gridTemplateColumns: "repeat(auto-fill, 300px)", gap: "1rem", alignItems: "flex-start", width:"100%", justifyContent: "center"}} fluid className='p-5'>
                 <Card className="p-2">
                     <Card.Img src="/images/HomeMainLogo.png" style={{background: 'rgb(50,50,50)'}}></Card.Img>

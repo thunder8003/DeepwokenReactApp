@@ -28,7 +28,7 @@ function NavigationBar() {
 }
 
 function getVariant(current, target) {
-    return current.name === target ? 'primary' : 'secondary'
+    return current.name === target ? 'success' : 'secondary'
 }
 
 export default NavigationBar

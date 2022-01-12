@@ -8,7 +8,8 @@ import NavigationBar from './components/NavigationBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NavigationBar name="Hello" />
+    <img src="/images/Background.png" className="background"></img>
+    <NavigationBar />
   </React.StrictMode>,
   document.getElementById('root')
 );
