@@ -1,6 +1,6 @@
 {
   "homepage": "https://www.deepwoken.info",
-  "name": "my-app",
+  "name": "deepwoken-wiki",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
