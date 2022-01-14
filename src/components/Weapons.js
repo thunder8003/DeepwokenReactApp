@@ -19,8 +19,8 @@ function Weapons() {
                 {
                     Object.keys(WeaponData[getActive]).map((weaponName, index) => (
                         <Card style={{padding: '10px', width:'fit-content'}}>
-                            <Card.Img src={WeaponData[getActive][weaponName].Image == undefined ? '/images/WeaponImages/NoImage.svg' : "/images/WeaponImages/" + WeaponData[getActive][weaponName].Image} style ={{width: '250px', paddingBottom: '10px'}}></Card.Img>
-                            <Card.Title style={{paddingLeft: '30px'}}>{weaponName}</Card.Title>
+                            <Card.Img src={WeaponData[getActive][weaponName].Image === undefined ? '/images/WeaponImages/NoImage.svg' : "/images/WeaponImages/" + WeaponData[getActive][weaponName].Image} style ={{width: '250px', paddingBottom: '10px'}}></Card.Img>
+                            <Card.Title style={{paddingLeft: '30px'}}>{WeaponData[getActive][weaponName].Name}</Card.Title>
                             <Card.Body>
                                 Requirements: {WeaponData[getActive][weaponName].Requirements}<br />
                                 Base Damage: {WeaponData[getActive][weaponName].BaseDamage}<br />
